@@ -1,2 +1,2 @@
-# emqu-mi.ca
+# emquími.ca
 Projetos de Front-End do emquími.ca
