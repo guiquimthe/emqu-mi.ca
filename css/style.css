@@ -1,11 +1,12 @@
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2") format("woff2"),
-       url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff") format("woff"),
-       url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2") format("woff2"),
-       url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff") format("woff"),
-       url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2") format("woff2"),
-       url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff") format("woff");
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2")
+      format("woff2"),
+    url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.woff") format("woff"),
+    url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2") format("woff2"),
+    url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.woff") format("woff"),
+    url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2") format("woff2"),
+    url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.woff") format("woff");
 }
 
 * {
@@ -14,16 +15,17 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Plus Jakarta Sans";
-  }
-  
-html,body {
+}
+
+html,
+body {
   height: 100%;
   font-family: "Plus Jakarta Sans";
   font-size: 100%;
-  background: linear-gradient(124.15deg, #EAE7F8 0%, #A99AE3 100%);
+  background: linear-gradient(124.15deg, #eae7f8 0%, #a99ae3 100%);
 }
 
-.cabecalho{
+.cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,23 +33,23 @@ html,body {
   padding: 24px;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
   height: 48px;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
   display: flex;
   gap: 80px;
 }
 
-.cabecalho-menu-item{
-  color: #1A1522;
+.cabecalho-menu-item {
+  color: #1a1522;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
 }
 
-.conteudo-principal-escrito-a{
+.conteudo-principal-escrito-a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,76 +57,76 @@ html,body {
   margin-bottom: 40px;
 }
 
-.conteudo-principal-escrito-a h1{
-  color: #2C284B;
+.conteudo-principal-escrito-a h1 {
+  color: #2c284b;
   font-size: 48px;
   font-weight: normal;
   text-align: center;
 }
 
-.conteudo-principal-escrito-a h2{
-  color: #2C284B;
+.conteudo-principal-escrito-a h2 {
+  color: #2c284b;
   font-size: 48px;
   font-weight: normal;
   text-align: center;
 }
 
-.conteudo-principal-escrito-a h2 span{
-  color: #5235C6;
+.conteudo-principal-escrito-a h2 span {
+  color: #5235c6;
 }
 
-.conteudo-principal-escrito-b{
+.conteudo-principal-escrito-b {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  }
+}
 
-.conteudo-principal-escrito-b button{
+.conteudo-principal-escrito-b button {
   padding: 12px 32px;
-  background: #5235C6;
+  background: #5235c6;
   border-radius: 6px;
   border: none;
-  color: #EAE7F8;
+  color: #eae7f8;
   font-size: 24px;
   text-align: center;
 }
 
-.conteudo-principal-imagem{
+.conteudo-principal-imagem {
   margin-bottom: 40px;
 }
 
-.conteudo-secundario{
+.conteudo-secundario {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
 }
 
-.conteudo-secundario-a h3{
+.conteudo-secundario-a h3 {
   font-weight: normal;
   font-size: 36px;
   line-height: 45px;
   text-align: center;
   letter-spacing: -0.015em;
-  color: #2C284B;
+  color: #2c284b;
 }
 
-.conteudo-secundario-a p{
+.conteudo-secundario-a p {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   text-align: center;
   letter-spacing: -0.015em;
-  color: #6F6E77;
+  color: #6f6e77;
 }
 
-.conteudo-secundario-botao-explorar{
+.conteudo-secundario-botao-explorar {
   padding: 12px 32px;
-  background: #EAE7F8;
+  background: #eae7f8;
   border-radius: 6px;
   border: none;
-  color: #5235C6;
+  color: #5235c6;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
